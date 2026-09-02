@@ -1,0 +1,1 @@
+prompt = build a site for student teacher interaction where teachers can upload documents and students can access them , make a separate student and teacher login portal ( make an option to register new accounts) 
