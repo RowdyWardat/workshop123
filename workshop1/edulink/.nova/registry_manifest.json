@@ -1,0 +1,12 @@
+{
+  "components": {
+    "src/components/ui/MegaMenuHeader.tsx": {
+      "component_name": "MegaMenuHeader",
+      "self_animating": false
+    },
+    "src/components/ui/Footer4Col.tsx": {
+      "component_name": "Footer4Col",
+      "self_animating": false
+    }
+  }
+}

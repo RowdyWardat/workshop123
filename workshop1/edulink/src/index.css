@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #6664E3;
+    --color-on-primary: #FFFFFF;
+    --color-secondary: #8C9FFA;
+    --color-on-secondary: #0F172A;
+    --color-accent: #DC5312;
+    --color-on-accent: #000000;
+    --color-bg: #FFFFFF;
+    --color-fg: #1E1B4B;
+    --color-card: #F3F2F2;
+    --color-card-fg: #1E1B4B;
+    --color-muted: #F7F9FC;
+    --color-muted-fg: #606F85;
+    --color-border: #C7D2FE;
+    --color-ring: #4F46E5;
+    --color-destructive: #DC2626;
+    --color-on-destructive: #FFFFFF;
+    --font-heading: 'Baloo 2', serif;
+    --font-body: 'Comic Neue', sans-serif;
+  }
+
+  ::selection {
+    background-color: var(--color-accent);
+    color: var(--color-on-accent);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body);
+    color: var(--color-fg);
+    background-color: var(--color-bg);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
